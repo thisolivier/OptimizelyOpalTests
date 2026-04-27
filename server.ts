@@ -8,6 +8,7 @@ app.use(express.json());
 
 new ToolsService(app);
 require('./src/tool_convert_temperature');
+require('./src/tool_preview_cms');
 
 app.use('/api', hello);
 
